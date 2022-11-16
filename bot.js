@@ -66,7 +66,7 @@ setInterval(function() {//Rache Code , Telif Hakları Vardır, https://discord.g
          var random = Math.floor(Math.random()*(oyun.length-0+1)+0);//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
          client.user.setActivity(oyun[random], {"type": "PLAYING"});//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 
-      }, 1 * 1000); //Ben bunu 2 saniye olarak ayarladım ama siz istediğiniz gibi ayarlayabilirsiniz. 000 <-- Bu 3 sıfıra hiç bir şekilde dokunmayın. Sadece 2000 den 2 yi silip istediğiniz sayıyı yazın
+      }, 2 * 2000); //Ben bunu 2 saniye olarak ayarladım ama siz istediğiniz gibi ayarlayabilirsiniz. 000 <-- Bu 3 sıfıra hiç bir şekilde dokunmayın. Sadece 2000 den 2 yi silip istediğiniz sayıyı yazın
 });
 
 
