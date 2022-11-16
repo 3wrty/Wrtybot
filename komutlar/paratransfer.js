@@ -13,8 +13,8 @@ exports.run = async (client, message, args) => {
   let para = args[1]
   if(transkllanç == kllanç) return message.channel.send(`Kendinize para gönderemezsiniz.`)
   if(transkllanç.bot == true) return message.channel.send(`Botlara para gönderemezsiniz.`)
-  if(!transkllanç) return message.channel.send(`Bir kullanıcı girmelisiniz. Doğru Kullanım;\n\`${client.ekoayarlar.botunuzunprefixi}transfer @${client.user.tag} 50\``)
-  if(!para) return message.channel.send(`Bir miktar girmelisiniz. Doğru Kullanım;\n\`${client.ekoayarlar.botunuzunprefixi}transfer @${client.user.tag} 50\``)
+  if(!transkllanç) return message.channel.send(`Bir kullanıcı girmelisiniz. Doğru Kullanım;\n\`w!transfer @${client.user.tag} 50\``)
+  if(!para) return message.channel.send(`Bir miktar girmelisiniz. Doğru Kullanım;\n\`w!transfer @${client.user.tag} 50\``)
   const bakiye = await db.fetch(`bakiyecdare-${kllanç.id}`);
   const hesapdurumu = await db.fetch(`hesapdurumcodare-${kllanç.id}`);
   const hesapismi = await db.fetch(`hesapismiçodare-${kllanç.id}`);
@@ -24,11 +24,11 @@ exports.run = async (client, message, args) => {
   const transhesapismi = await db.fetch(`hesapismiçodare-${transkllanç.id}`);
   
   if(!hesapdurumu) {
-    message.reply(`İlk olarak hesap oluşturmalısın. ${client.ekoayarlar.botunuzunprefixi}hesap-oluştur <Hesap İsmi>`)
+    message.reply(`İlk olarak hesap oluşturmalısın. w!hesap-oluştur <Hesap İsmi>`)
   } else {
     if(hesapdurumu) {
       if(!hesapismi) {
-        message.reply(`İlk olarak hesap oluşturmalısın. ${client.ekoayarlar.botunuzunprefixi}hesap-oluştur <Hesap İsmi>`)
+        message.reply(`İlk olarak hesap oluşturmalısın. w!hesap-oluştur <Hesap İsmi>`)
       } else {
         if(hesapdurumu) {
           if(hesapismi) {
