@@ -23,7 +23,7 @@ const yardım = new Discord.MessageEmbed()//Rache Code , Telif Hakları Vardır,
 .setAuthor("WrtyBot")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 .setTitle("Yardım Menüsü")
  .setTimestamp()
-.setDescription("hihiiha")
+.setDescription("İlerde Ayarlancak...")
 message.channel.send(yardım)
 }
 

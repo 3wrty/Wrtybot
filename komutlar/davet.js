@@ -17,8 +17,8 @@ if (talkedRecently.has(message.author.id)) {
 
   const davet = new Discord.MessageEmbed()
   .setColor("RANDOM")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-  .setTitle(":kite: Beni Sunucuna Ekle")
-  .setDescription("[__**Davet Et**__](https://discord.com/oauth2/authorize?client_id=763434923016192030&scope=bot&permissions=8) \n [__**Destek Sunucusu**__](https://discord.gg/mMMpTt5)")
+  .setTitle("HOOP DUR BAKALIM")
+  .setDescription("Bu komut maalesef şimdilik kullanılmıyor.")
   message.channel.send(davet)//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 }
 //Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5

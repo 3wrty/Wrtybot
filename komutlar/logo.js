@@ -22,7 +22,7 @@ const eğlence = new Discord.MessageEmbed()
 .setAuthor("Rache Bot ")
 .setTitle(":military_medal:•  Rache Bot Logo Komutları ")
  .setTimestamp()//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-.setDescription("\n\n\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n\n:green_circle: **r!dinamik** = Dinamik logo oluşturur.  \n :green_circle: **r!altın** = Altın logo oluşturur.  \n :green_circle: **r!banner** = Banner logo oluşturur.  \n :green_circle: **r!basit** = Basit logo oluşturur.  \n :green_circle: **r!elmas** = Elmas logo oluşturur.  \n :green_circle: **r!sarı** = Sarı logo oluşturur.  \n :green_circle: **r!neonmavi** = Neon mavi logo oluşturur.  \n :green_circle: **r!kalın** = Kalın logo oluşturur.  \n :green_circle: **r!anime** = Anime yazı tipinde logo oluşturur.  \n :green_circle: **r!habbo** = Habbo yazı tipinde logo oluşturur.  \n :green_circle: **r!arrow** = Ok işaretli logo oluşturur.  \n :green_circle: **r!green** = Yeşil logo oluşturur.  \n :green_circle: **r!alev** = Alevli logo oluşturur.  \n :green_circle: **r!red** = Kırmızı logo oluşturur. ")
+.setDescription("\n\n\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n\n:green_circle: **w!dinamik** = Dinamik logo oluşturur.  \n :green_circle: **w!altın** = Altın logo oluşturur.  \n :green_circle: **w!banner** = Banner logo oluşturur.  \n :green_circle: **w!basit** = Basit logo oluşturur.  \n :green_circle: **w!elmas** = Elmas logo oluşturur.  \n :green_circle: **w!sarı** = Sarı logo oluşturur.  \n :green_circle: **w!neonmavi** = Neon mavi logo oluşturur.  \n :green_circle: **w!kalın** = Kalın logo oluşturur.  \n :green_circle: **w!anime** = Anime yazı tipinde logo oluşturur.  \n :green_circle: **w!habbo** = Habbo yazı tipinde logo oluşturur.  \n :green_circle: **w!arrow** = Ok işaretli logo oluşturur.  \n :green_circle: **w!green** = Yeşil logo oluşturur.  \n :green_circle: **w!alev** = Alevli logo oluşturur.  \n :green_circle: **w!red** = Kırmızı logo oluşturur. ")
 .setImage("https://cdn.discordapp.com/attachments/765879032457199617/794200489297313822/standard_37.gif")
 message.channel.send(eğlence)
 }
@@ -35,8 +35,8 @@ exports.conf = {
 };
 
 exports.help = {//Rache Code , Telif Hakları Vardır,//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5 https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-  name: 'logo',//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
+  name: 'logoqwhıgedhaqgwsdehgqawble',//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
   category: 'kullanıcı',
   description: 'Yardım Menüsü.',//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-   usage:'!logo'
+   usage:'!logoıjawqgedhıgqawbhelglwqe'
 }//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5

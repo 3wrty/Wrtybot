@@ -11,14 +11,14 @@ message.channel.createWebhook(message.author.username, {avatar: message.author.a
 const hook = new Discord.WebhookClient(web.id, web.token);
 const attachment = new Discord.MessageAttachment('https://c.tenor.com/vJemk8cKgX8AAAAM/kurallar-just-follow-the-rules.gif');
 hook.send(`📢 \`${message.guild.name}\` **Sunucu Kurallar**
-//Rache Code , Telif Hakları Vardır, https://discord.gg/VcfpUgtajB
+//Rache Code , Telif Hakları Vardır, 
 \`¤\` **Reklam** Sunucu **İçi** Yasaktır. **(Yetkililere bildirmelisiniz.)**
 \`¤\` **Ses** & **Chat** odalarında **Küfür**, **Troll**, **Rahatsız** etmek & **Bass** Yasaktır.
 \`¤\` Kişisel sorunlarınızı **sunucuya** taşımak, Düzeni **bozmak**, Çıkan **tartışmayı** uzatmak Yasaktır.
 \`¤\` **Din**, **dil**, **ırk**, Cinsiyetçilik ayrımı Yasak.
 \`¤\` **Cinsel içerikli** görseller paylaşmak Yasaktır.
 \`¤\` **Spam**, **flood** ve **caps** Yasaktır.
-//Rache Code , Telif Hakları Vardır, https://discord.gg/VcfpUgtajB
+//Rache Code , Telif Hakları Vardır,
 \`¤\` **Her kural yazılı şekilde belirtilmez. Doğruyu yanlışı ayırt edebilmelisiniz.**
 
 > \`Sunucuya Kayıt Olan Tüm Üyeler İçin Kurallar Okunmuş sayılacaktır, Teşekkürler.\`
