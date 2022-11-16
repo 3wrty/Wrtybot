@@ -56,8 +56,8 @@ var oyun = [
 `WrtyBot`,
 `w!yardım`,
 `3wrty tarafından yapılmıştır`,
-`Altyapı Rache code`,
-`Youtube:https://www.youtube.com/channel/UCPqG79JqFYk3-0W6BeuPQFg`
+``,
+`Youtube: https://www.youtube.com/channel/UCPqG79JqFYk3-0W6BeuPQFg`
 ]
   
 client.on("ready", () => {//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
