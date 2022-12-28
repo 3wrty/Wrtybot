@@ -53,11 +53,10 @@ if (cmd) {
 const bot = new Discord.Client();//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 
 var oyun = [
-`WrtyBot`,
-`w!yardım`,
+`NovaBot`,
+`n!yardım`,
 `3wrty tarafından yapılmıştır`,
-`WrtyBot`,
-`Youtube: https://www.youtube.com/channel/UCPqG79JqFYk3-0W6BeuPQFg`
+`NovaBot`,
 ]
   
 client.on("ready", () => {//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5

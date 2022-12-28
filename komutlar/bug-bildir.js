@@ -21,7 +21,7 @@ let istek = args.slice(0).join(' ')
 if(!istek) return message.channel.send('**Bug Bildirmek için Bir Bug Yazınız.** :x:')
 //Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 const embed = new Discord.MessageEmbed()
-.setTitle("Rache Bot Bug Sistemi")
+.setTitle("NovaBot Bug Sistemi")
 .setColor('BLUE')//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 .setDescription(`**Bug Kanalı** ${message.channel.name} \n **Bug Bildirilen Sunucu** \`${message.guild.name}\` \n **Bugu Bildiren Kullanıcı** <@${message.author.id}> \n **Bildirilen Bug :** \`${istek}\``)
 client.channels.cache.get('794185083627634707').send(embed)
