@@ -19,7 +19,7 @@ exports.run = (client, msg, args) => {//Rache Code , Telif Hakları Vardır, htt
   }).then(channel => {
     //Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
     let embed = new Discord.MessageEmbed()
-    .setAuthor("Rache - Kod Paylaşıldı")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
+    .setAuthor("WrtyBot - Kod Paylaşıldı")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
     .addField("Paylaşan Yetkili", `Yetkili İsim \`${msg.author.tag}\` \nYetkili ID \`${msg.author.id}\``)
     .addField("Paylaşılan Kod", `Kod İsmi \`${kodIsım}\` \nKod Kategorisi \`JavaScript\` `)
     .setColor("RED")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
