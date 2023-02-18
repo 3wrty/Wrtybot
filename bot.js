@@ -57,13 +57,14 @@ var oyun = [
 `w!yardım`,
 `3wrty tarafından yapılmıştır`,
 `WrtyBot`,
+"twitch.tv/3w_rty",
 ]
   
 client.on("ready", () => {//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 setInterval(function() {//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 
          var random = Math.floor(Math.random()*(oyun.length-1+1)+1);//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-         client.user.setActivity(oyun[random], {"type": "PLAYING"});//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
+         client.user.setActivity(oyun[random], {"type": "STREAMING"});//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 
       }, 2 * 2000); //Ben bunu 2 saniye olarak ayarladım ama siz istediğiniz gibi ayarlayabilirsiniz. 000 <-- Bu 3 sıfıra hiç bir şekilde dokunmayın. Sadece 2000 den 2 yi silip istediğiniz sayıyı yazın
 });
