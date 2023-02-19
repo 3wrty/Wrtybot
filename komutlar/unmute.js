@@ -23,8 +23,7 @@ const Discord = require('discord.js')
             .setColor('#00ff00')
             .setDescription(`${kullanıcı} Kişisinin Mutesi ${message.author} Tarafından Kaldırıldı.`)
             .setFooter(kullanıcı.user.username + " Umarız Hatalarını Birdaha Tekrarlamazsın...")
-            .setThumbnail(kullanıcı.user.avatarURL({dynamic: true, size: 2048}))
-            message.channel.send(cmfmute)
+             message.channel.send(cmfmute)
 
             // Mute Kaldırıldığında Alınacak & Verilecek Roller
             kullanıcı.roles.remove('1076909184689381476')
