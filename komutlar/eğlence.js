@@ -19,10 +19,10 @@ exports.run = async (client, message, args) => {
 
 const eğlence = new Discord.MessageEmbed()
 .setColor("RANDOM")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-.setAuthor("Rache Bot")
-.setTitle(":drop_of_blood:•  Rache Bot Eğlence Komutları  ")
+.setAuthor("WrtyBot")
+.setTitle(":purple_circle:•  WrtyBot Eğlence Komutları  ")
  .setTimestamp()
-.setDescription("  \n \n \n \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n\n :blue_circle:  **r!mcskin** = Yazdığınız ismin minecraft görünüşünü atar.  \n :blue_circle:  **r!fbi** = Bot FBi Gif Atar.  \n :blue_circle:  **r!token** = Tokenimi Öğrenmek İstemezmisin?  \n :blue_circle:  **r!düello** = Düello Atarsın.  \n :blue_circle:  **r!wasted** = Polis tarafından yakalanırsın.\n :blue_circle:  **r!yaz** = Embedli Yazı Yazdırma ")
+.setDescription("  \n \n \n \n ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n\n :blue_circle:  **w!mcskin** = Yazdığınız ismin minecraft görünüşünü atar.  \n :blue_circle:  **w!fbi** = Bot FBi Gif Atar.  \n :blue_circle:  **w!token** = Tokenimi Öğrenmek İstemezmisin?  \n :blue_circle:  **w!düello** = Düello Atarsın.  \n :blue_circle:  **w!wasted** = Polis tarafından yakalanırsın.\n :blue_circle:  **w!yaz** = Embedli Yazı Yazdırma ")
 .setImage("https://cdn.discordapp.com/attachments/765879032457199617/794200489297313822/standard_37.gif")
 message.channel.send(eğlence)
 }

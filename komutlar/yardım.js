@@ -24,14 +24,8 @@ const yardım = new Discord.MessageEmbed()//Rache Code , Telif Hakları Vardır,
 .setTitle("Yardım Menüsü")
  .setTimestamp()
 .addField('WrtyBot',`
-**w!ban** : Etiketlediğiniz kişiyi banlar.
-**w!unban**: Etiketlediğiniz kişinin yasağını kaldırır.
-**w!kick** : Etiketlediğiniz kişiyi sunucudan atar.
-**w!mute** : Kasaları listeler.
-**w!unmute** : Kasalar hakkında bilgi alırsınız.
-**w!kasaaç** : Kasa Açarsınız.
-**w!kumar** : Kumar Oynarsınız
-**w!transfer** : Hesabınızdan başka bir hesaba para transferi yaparsınız.`)
+**w!moderasyon** : Moderasyon komutlarını gösterir.
+**w!eğlence**: Eğlence komutlarını gösterir.`)
 message.channel.send(yardım)
 }
 
