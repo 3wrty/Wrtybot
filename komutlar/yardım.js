@@ -23,12 +23,15 @@ const yardım = new Discord.MessageEmbed()//Rache Code , Telif Hakları Vardır,
 .setAuthor("WrtyBot")//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 .setTitle("Yardım Menüsü")
  .setTimestamp()
-.setDescription("w!ban")
-("w!kick")
-("w!unban")
-("w!mute")
-("w!eğlence")
-("w!ping")
+.addField('WrtyBot',`
+**w!ban** : Etiketlediğiniz kişiyi banlar.
+**w!unban**: Etiketlediğiniz kişinin yasağını kaldırır.
+**w!kick** : Etiketlediğiniz kişiyi sunucudan atar.
+**w!mute** : Kasaları listeler.
+**w!unmute** : Kasalar hakkında bilgi alırsınız.
+**w!kasaaç** : Kasa Açarsınız.
+**w!kumar** : Kumar Oynarsınız
+**w!transfer** : Hesabınızdan başka bir hesaba para transferi yaparsınız.`)
 message.channel.send(yardım)
 }
 
