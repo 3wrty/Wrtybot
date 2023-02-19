@@ -9,16 +9,16 @@ message.channel.send(new Discord.MessageEmbed()
 .setDescription(`**Tüm şablonlar ${client.user.username}'a Aittir [Destek](https://discord.gg/mMMpTt5)**
 İçerikler de birden fazla tema var.
 
-\`r!j4j-tema\` 
+\`w!j4j-tema\` 
 **Hazır __join 4 join__ sunucu teması yollar**
 
-\`r!public-tema\` 
+\`w!public-tema\` 
 **Hazır karışık __public__ sunucu teması yollar**
 
-\`r!oyun-tema\` 
+\`w!oyun-tema\` 
 **Hazır __oyun__ sunucu teması yollar**
 
-\`r!gif-tema\` 
+\`w!gif-tema\` 
 **Hazır gif share sunucu teması yollar**
 
 
