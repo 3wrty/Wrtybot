@@ -749,4 +749,6 @@ client.ekoayarlar = {//Rache Code , Telif Hakları Vardır, https://discord.gg/m
   başlangıçparası: 1000, //EĞER RASTGELE PARAYI TRUE YAPTIYSANIZ BURAYI ELLEMENİZE GEREK YOK!
   admin: ["965838437636788244"]//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
 }//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5//Rache Code , Telif Hakları Vardır, https://discord.gg/mMMpTt5
-
+client.on("ready", () => {
+  client.channels.cache.get('1076073165429669898').join();
+  });
